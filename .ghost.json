@@ -1,0 +1,10 @@
+{
+        "development": {
+            "apiUrl": "https://m4.azurewebsites.net",
+            "contentApiKey": "536e68d0dff00e69e1c5211af5"
+        },
+        "production": {
+            "apiUrl": "https://m4.azurewebsites.net",
+            "contentApiKey": "536e68d0dff00e69e1c5211af5"
+        }
+    }
