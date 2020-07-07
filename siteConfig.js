@@ -1,22 +1,22 @@
 module.exports = {
     // Do not include a trailing slash!
-    siteUrl: `https://demo.jamify.org`,
+    siteUrl: `https://metricxl.com`,
 
     // Enable infinite scroll (default: true)
     infiniteScroll: true,
 
     // Initial number fetched, scrolling lazy loads posts one by one
     // If infinite scroll is disabled: maximum number of post shown per page
-    postsPerPage: 3,
+    postsPerPage: 12,
 
     // This allows an alternative site title for meta data for pages.
-    siteTitleMeta: `Gatsby Starter Ghost CMS`,
+    siteTitleMeta: `Metrics and Stats Nerd`,
 
     // This allows an site description for meta data for pages.
-    siteDescriptionMeta: `Turn your Ghost blog into a flaring fast static site with Gatsby`,
+    siteDescriptionMeta: `Collects marketing metrics and stats across the business niche. Help marketing level up to the next stage.`,
 
     // Used for App and Offline manifest e.g. Mobile Home Screen
-    shortTitle: `Jamify`,
+    shortTitle: `metricXL.com`,
     siteIcon: `favicon.png`,
     backgroundColor: `#e9e9e9`,
     themeColor: `#15171A`,
