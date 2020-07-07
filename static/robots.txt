@@ -1,2 +1,8 @@
-User-agent: *
 Allow: /
+Disallow: /tag/
+Disallow: /author/
+Disallow: /page/
+Disallow: /contact
+Disallow: /stats
+
+Sitemap: https://metricxl.com/sitemap.xml
