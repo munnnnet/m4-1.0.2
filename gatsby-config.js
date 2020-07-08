@@ -94,13 +94,6 @@ module.exports = {
                     {
                         resolve: `gatsby-rehype-prismjs`,
                     },
-                    {
-                        resolve: `gatsby-theme-ghost-toc`,
-                        options: {
-                            // Number of shown headline levels (optional, default: 2)
-                            maxDepth: 2,
-                        },
-                    },
                 ],
             },
         },
