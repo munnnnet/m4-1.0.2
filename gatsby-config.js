@@ -94,14 +94,14 @@ module.exports = {
                     {
                         resolve: `gatsby-rehype-prismjs`,
                     },
+                    {
+                        resolve: `gatsby-theme-ghost-toc`,
+                        options: {
+                            // Number of shown headline levels (optional, default: 2)
+                            maxDepth: 2,
+                        },
+                    },
                 ],
-            },
-        },
-        {
-        resolve: `gatsby-theme-ghost-toc`,
-            options: {
-                // Number of shown headline levels (optional, default: 2)
-                maxDepth: 2,
             },
         },
         // this (optional) plugin enables Progressive Web App + Offline functionality
