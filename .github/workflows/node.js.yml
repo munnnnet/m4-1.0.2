@@ -24,6 +24,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm ci
-    - run: npm run build --if-present
-    - run: npm test
+    - run: git clone https://github.com/styxlab/gatsby-starter-try-ghost.git jamify-toc
+    - run: cd jamify-toc
+    - run: yarn add gatsby-theme-ghost-toc
+    - run: npm build
